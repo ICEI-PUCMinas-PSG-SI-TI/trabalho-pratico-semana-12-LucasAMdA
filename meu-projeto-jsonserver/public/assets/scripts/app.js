@@ -6,7 +6,7 @@ async function carregarDados(endpoint) {
     } catch (error) {
         console.error(error);
         return [];
-    }
+    }   
 }
 
 function renderizarFilmes(containerSelector, filmes) {

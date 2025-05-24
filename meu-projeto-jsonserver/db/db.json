@@ -1,11 +1,11 @@
 {
   "usuarios": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "login": "lucasalaane",
+      "senha": "2025",
+      "nome": "Lucas Mesquita",
+      "email": "lucasalaane@abc.com",
+      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1"
     },
     {
       "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
@@ -15,315 +15,330 @@
       "email": "user@abc.com"
     }
   ],
-
-"filmesPopulares": [
+  "filmesPopulares": [
     {
-        "titulo": "Guardiões da Galáxia",
-        "imagem": "assets/images/guardioes-da-galaxia.jpg",
-        "descricao": "Sinopse: Um grupo improvável de desajustados intergalácticos une forças para proteger um artefato extremamente poderoso. Eles enfrentam inimigos mortais e criam laços inesperados enquanto lutam para salvar a galáxia. Com ação e humor, essa equipe mostra o poder da união.",
-        "duracao": "2h 3min",
-        "direcao": "James Gunn",
-        "elenco": " Chris Pratt, Zoë Saldana, Dave Bautista, Vin Diesel, Bradley Cooper, Lee Pace",
-        "datadelanc": "2014",
-        "galeria": [
-            "assets/images/gtggal1.jpg",
-            "assets/images/gtggal2.jpg",
-            "assets/images/gtggal3.jpg",
-            "assets/images/gtggal4.jpg"
-        ]
+      "titulo": "Guardiões da Galáxia",
+      "imagem": "assets/images/guardioes-da-galaxia.jpg",
+      "descricao": "Sinopse: Um grupo improvável de desajustados intergalácticos une forças para proteger um artefato extremamente poderoso. Eles enfrentam inimigos mortais e criam laços inesperados enquanto lutam para salvar a galáxia. Com ação e humor, essa equipe mostra o poder da união.",
+      "duracao": "2h 3min",
+      "direcao": "James Gunn",
+      "elenco": " Chris Pratt, Zoë Saldana, Dave Bautista, Vin Diesel, Bradley Cooper, Lee Pace",
+      "datadelanc": "2014",
+      "galeria": [
+        "assets/images/gtggal1.jpg",
+        "assets/images/gtggal2.jpg",
+        "assets/images/gtggal3.jpg",
+        "assets/images/gtggal4.jpg"
+      ],
+      "id": "3900"
     },
     {
-        "titulo": "Sorria",
-        "imagem": "assets/images/sorria1.webp",
-        "descricao": "Sinopse: Após testemunhar eventos traumáticos, uma psicóloga passa a ser assombrada por uma entidade macabra. Ela precisa confrontar seus medos mais profundos e desvendar a origem desse mal. O terror psicológico toma conta enquanto ela tenta sobreviver.",
-        "duracao": "1h 55min",
-        "direcao": "Parker Finn",
-        "elenco": "Kyle Gallner, Sosie Bacon, Jessie T. Usher",
-        "datadelanc": "2022",
-        "galeria": [
-            "assets/images/sorriagal1.jpg",
-            "assets/images/sorriagal2.jpg",
-            "assets/images/sorriagal3.jpg",
-            "assets/images/sorriagal4.jpg"
-        ]
+      "titulo": "Sorria",
+      "imagem": "assets/images/sorria1.webp",
+      "descricao": "Sinopse: Após testemunhar eventos traumáticos, uma psicóloga passa a ser assombrada por uma entidade macabra. Ela precisa confrontar seus medos mais profundos e desvendar a origem desse mal. O terror psicológico toma conta enquanto ela tenta sobreviver.",
+      "duracao": "1h 55min",
+      "direcao": "Parker Finn",
+      "elenco": "Kyle Gallner, Sosie Bacon, Jessie T. Usher",
+      "datadelanc": "2022",
+      "galeria": [
+        "assets/images/sorriagal1.jpg",
+        "assets/images/sorriagal2.jpg",
+        "assets/images/sorriagal3.jpg",
+        "assets/images/sorriagal4.jpg"
+      ],
+      "id": "48f8"
     },
     {
-        "titulo": "Sonic",
-        "imagem": "assets/images/sonic1.webp",
-        "descricao": "Sinopse: O veloz ouriço azul foge para a Terra e encontra um novo amigo humano. Juntos, eles enfrentam o Dr. Robotnik, que quer usar a supervelocidade de Sonic para dominar o mundo. Uma aventura cheia de diversão, amizade e ação eletrizante.",
-        "duracao": "1h 39min",
-        "direcao": "Jeff Fowler",
-        "elenco": "Jim Carrey, James Marsden, Tika Sumpter, Neal McDonough, Adam Pally, Lee Majdoub, Malik Bentalha, Michael Hogan",
-        "datadelanc": "2020",
-        "galeria": [
-            "assets/images/sonic1gal1.jpg",
-            "assets/images/sonic1gal2.jpg",
-            "assets/images/sonic1gal3.jpg",
-            "assets/images/sonic1gal4.jpg"
-        ]
+      "titulo": "Sonic",
+      "imagem": "assets/images/sonic1.webp",
+      "descricao": "Sinopse: O veloz ouriço azul foge para a Terra e encontra um novo amigo humano. Juntos, eles enfrentam o Dr. Robotnik, que quer usar a supervelocidade de Sonic para dominar o mundo. Uma aventura cheia de diversão, amizade e ação eletrizante.",
+      "duracao": "1h 39min",
+      "direcao": "Jeff Fowler",
+      "elenco": "Jim Carrey, James Marsden, Tika Sumpter, Neal McDonough, Adam Pally, Lee Majdoub, Malik Bentalha, Michael Hogan",
+      "datadelanc": "2020",
+      "galeria": [
+        "assets/images/sonic1gal1.jpg",
+        "assets/images/sonic1gal2.jpg",
+        "assets/images/sonic1gal3.jpg",
+        "assets/images/sonic1gal4.jpg"
+      ],
+      "id": "b324"
     },
     {
-        "titulo": "Bladerunner 2049",
-        "imagem": "assets/images/bladerunner.png",
-        "descricao": "Sinopse: Em um futuro distópico, um novo Blade Runner descobre um segredo que ameaça a estabilidade da sociedade. Ele embarca em uma jornada para encontrar respostas e proteger o que resta da humanidade. Uma ficção científica visualmente deslumbrante e reflexiva.",
-        "duracao": "2h 43min",
-        "direcao": "Denis Villeneuve",
-        "elenco": "Ryan Gosling, Harrison Ford, Ana de Armas, Sylvia Hoeks, Robin Wright, Mackenzie Davis, Dave Bautista, Carla Juri, Lennie James, Sean Young, Edward James Olmos",
-        "datadelanc": "2017",
-        "galeria": [
-            "assets/images/blarungal1.jpg",
-            "assets/images/blarungal2.jpg",
-            "assets/images/blarungal3.jpg",
-            "assets/images/blarungal4.jpg"
-        ]
+      "titulo": "Bladerunner 2049",
+      "imagem": "assets/images/bladerunner.png",
+      "descricao": "Sinopse: Em um futuro distópico, um novo Blade Runner descobre um segredo que ameaça a estabilidade da sociedade. Ele embarca em uma jornada para encontrar respostas e proteger o que resta da humanidade. Uma ficção científica visualmente deslumbrante e reflexiva.",
+      "duracao": "2h 43min",
+      "direcao": "Denis Villeneuve",
+      "elenco": "Ryan Gosling, Harrison Ford, Ana de Armas, Sylvia Hoeks, Robin Wright, Mackenzie Davis, Dave Bautista, Carla Juri, Lennie James, Sean Young, Edward James Olmos",
+      "datadelanc": "2017",
+      "galeria": [
+        "assets/images/blarungal1.jpg",
+        "assets/images/blarungal2.jpg",
+        "assets/images/blarungal3.jpg",
+        "assets/images/blarungal4.jpg"
+      ],
+      "id": "c352"
     },
     {
-        "titulo": "Divertidamente",
-        "imagem": "assets/images/divertidamente1.jpg",
-        "descricao": "Sinopse: Dentro da mente de uma menina chamada Riley, cinco emoções trabalham juntas para guiá-la durante mudanças importantes em sua vida. Alegria, Tristeza e os outros aprendem a cooperar enquanto Riley enfrenta novos desafios. Uma jornada emocionante sobre amadurecimento e sentimentos.",
-        "duracao": "1h 35min",
-        "direcao": "Pete Docter",
-        "elenco": "Amy Poehler, Phyllis Smith, Richard Kind, Bill Hader, Lewis Black, Mindy Kaling",
-        "datadelanc": "2015",
-        "galeria": [
-            "assets/images/divert1gal1.jpg",
-            "assets/images/divert1gal2.jpg",
-            "assets/images/divert1gal3.jpg",
-            "assets/images/divert1gal4.jpg"
-        ]
+      "titulo": "Divertidamente",
+      "imagem": "assets/images/divertidamente1.jpg",
+      "descricao": "Sinopse: Dentro da mente de uma menina chamada Riley, cinco emoções trabalham juntas para guiá-la durante mudanças importantes em sua vida. Alegria, Tristeza e os outros aprendem a cooperar enquanto Riley enfrenta novos desafios. Uma jornada emocionante sobre amadurecimento e sentimentos.",
+      "duracao": "1h 35min",
+      "direcao": "Pete Docter",
+      "elenco": "Amy Poehler, Phyllis Smith, Richard Kind, Bill Hader, Lewis Black, Mindy Kaling",
+      "datadelanc": "2015",
+      "galeria": [
+        "assets/images/divert1gal1.jpg",
+        "assets/images/divert1gal2.jpg",
+        "assets/images/divert1gal3.jpg",
+        "assets/images/divert1gal4.jpg"
+      ],
+      "id": "b516"
     }
-],
-
-"filmesLancamentos": [
+  ],
+  "filmesLancamentos": [
     {
-        "titulo": "Deadpool e Wolverine",
-        "imagem": "assets/images/deadwolve.jpg",
-        "descricao": "Sinopse: Dois anti-heróis improváveis se unem em uma aventura cheia de ação e sarcasmo. Entre explosões e humor ácido, Deadpool e Wolverine enfrentam desafios brutais. Uma parceria icônica em uma missão imperdível.",
-        "duracao": "2h 10min",
-        "direcao": "Shawn Levy",
-        "elenco": "Ryan Reynolds, Hugh Jackman, Emma Corrin, Matthew Macfadyen, Morena Baccarin, Rob Delaney",
-        "datadelanc": "2024",
-        "galeria": [
-            "assets/images/deadwolvegal1.jpg",
-            "assets/images/deadwolvegal2.jpg",
-            "assets/images/deadwolvegal3.jpg",
-            "assets/images/deadwolvegal4.jpg"
-        ]
+      "titulo": "Deadpool e Wolverine",
+      "imagem": "assets/images/deadwolve.jpg",
+      "descricao": "Sinopse: Dois anti-heróis improváveis se unem em uma aventura cheia de ação e sarcasmo. Entre explosões e humor ácido, Deadpool e Wolverine enfrentam desafios brutais. Uma parceria icônica em uma missão imperdível.",
+      "duracao": "2h 10min",
+      "direcao": "Shawn Levy",
+      "elenco": "Ryan Reynolds, Hugh Jackman, Emma Corrin, Matthew Macfadyen, Morena Baccarin, Rob Delaney",
+      "datadelanc": "2024",
+      "galeria": [
+        "assets/images/deadwolvegal1.jpg",
+        "assets/images/deadwolvegal2.jpg",
+        "assets/images/deadwolvegal3.jpg",
+        "assets/images/deadwolvegal4.jpg"
+      ],
+      "id": "1c3b"
     },
     {
-        "titulo": "Divertidamente 2",
-        "imagem": "assets/images/divertidamente2.jpg",
-        "descricao": "Sinopse: As emoções de Riley retornam para lidar com os desafios da adolescência. Novos sentimentos surgem, trazendo descobertas sobre crescimento e amadurecimento. A mente de Riley continua uma aventura cheia de aprendizado.",
-        "duracao": "1h 37min",
-        "direcao": "Kelsey Mann",
-        "elenco": "Amy Poehler, Maya Hawke, Kensington Tallman, Liza Lapira, Tony Hale, Lewis Black",
-        "datadelanc": "2024",
-        "galeria": [
-            "assets/images/divert2gal1.jpg",
-            "assets/images/divert2gal2.jpg",
-            "assets/images/divert2gal3.jpg",
-            "assets/images/divert2gal4.jpg"
-        ]
+      "titulo": "Divertidamente 2",
+      "imagem": "assets/images/divertidamente2.jpg",
+      "descricao": "Sinopse: As emoções de Riley retornam para lidar com os desafios da adolescência. Novos sentimentos surgem, trazendo descobertas sobre crescimento e amadurecimento. A mente de Riley continua uma aventura cheia de aprendizado.",
+      "duracao": "1h 37min",
+      "direcao": "Kelsey Mann",
+      "elenco": "Amy Poehler, Maya Hawke, Kensington Tallman, Liza Lapira, Tony Hale, Lewis Black",
+      "datadelanc": "2024",
+      "galeria": [
+        "assets/images/divert2gal1.jpg",
+        "assets/images/divert2gal2.jpg",
+        "assets/images/divert2gal3.jpg",
+        "assets/images/divert2gal4.jpg"
+      ],
+      "id": "f1b6"
     },
     {
-        "titulo": "Sorria 2",
-        "imagem": "assets/images/sorria2.webp",
-        "descricao": "Sinopse: Uma nova força sombria aterroriza seus alvos, espalhando pavor em cada sorriso. Um terror psicológico intenso e cheio de surpresas. Prepare-se para uma sequência arrepiante e cheia de tensão.",
-        "duracao": "2h 7min",
-        "direcao": "Parker Finn",
-        "elenco": "Naomi Scott, Miles Gutierrez-Riley, Kyle Gallner, Rosemarie DeWitt",
-        "datadelanc": "2024",
-        "galeria": [
-            "assets/images/sorria2gal1.jpg",
-            "assets/images/sorria2gal2.jpg",
-            "assets/images/sorria2gal3.jpg",
-            "assets/images/sorria2gal4.jpg"
-        ]
+      "titulo": "Sorria 2",
+      "imagem": "assets/images/sorria2.webp",
+      "descricao": "Sinopse: Uma nova força sombria aterroriza seus alvos, espalhando pavor em cada sorriso. Um terror psicológico intenso e cheio de surpresas. Prepare-se para uma sequência arrepiante e cheia de tensão.",
+      "duracao": "2h 7min",
+      "direcao": "Parker Finn",
+      "elenco": "Naomi Scott, Miles Gutierrez-Riley, Kyle Gallner, Rosemarie DeWitt",
+      "datadelanc": "2024",
+      "galeria": [
+        "assets/images/sorria2gal1.jpg",
+        "assets/images/sorria2gal2.jpg",
+        "assets/images/sorria2gal3.jpg",
+        "assets/images/sorria2gal4.jpg"
+      ],
+      "id": "a67c"
     },
     {
-        "titulo": "Super Mario",
-        "imagem": "assets/images/supermario.webp",
-        "descricao": "Sinopse: Mario embarca em uma jornada épica para salvar o Reino dos Cogumelos. Com desafios, inimigos clássicos e cenários incríveis, o encanador enfrenta tudo com coragem. Diversão e nostalgia se unem nessa aventura.",
-        "duracao": "1h 32min",
-        "direcao": "Aaron Horvath, Michael Jelenic",
-        "elenco": "Chris Pratt, Anya Taylor-Joy, Charlie Day, Jack Black",
-        "datadelanc": "2023",
-        "galeria": [
-            "assets/images/supmariogal1.jpg",
-            "assets/images/supmariogal2.jpg",
-            "assets/images/supmariogal3.jpg",
-            "assets/images/supmariogal4.jpg"
-        ]
+      "titulo": "Super Mario",
+      "imagem": "assets/images/supermario.webp",
+      "descricao": "Sinopse: Mario embarca em uma jornada épica para salvar o Reino dos Cogumelos. Com desafios, inimigos clássicos e cenários incríveis, o encanador enfrenta tudo com coragem. Diversão e nostalgia se unem nessa aventura.",
+      "duracao": "1h 32min",
+      "direcao": "Aaron Horvath, Michael Jelenic",
+      "elenco": "Chris Pratt, Anya Taylor-Joy, Charlie Day, Jack Black",
+      "datadelanc": "2023",
+      "galeria": [
+        "assets/images/supmariogal1.jpg",
+        "assets/images/supmariogal2.jpg",
+        "assets/images/supmariogal3.jpg",
+        "assets/images/supmariogal4.jpg"
+      ],
+      "id": "c4a6"
     },
     {
-        "titulo": "Sonic 2",
-        "imagem": "assets/images/sonic2.jpg",
-        "descricao": "Sinopse: Sonic retorna para enfrentar novos inimigos e proteger seus amigos. Sua velocidade e inteligência são cruciais em batalhas eletrizantes. A saga do ouriço azul continua em mais uma emocionante aventura.",
-        "duracao": "2h 2min",
-        "direcao": "Jeff Fowler",
-        "elenco": "James Marsden, Ben Schwartz, Tika Sumpter, Natasha Rothwell, Adam Pally, Shemar Moore, Colleen O'Shaughnessey, Idris Elba, Jim Carrey",
-        "datadelanc": "2022",
-        "galeria": [
-            "assets/images/sonic2gal1.jpg",
-            "assets/images/sonic2gal2.jpg",
-            "assets/images/sonic2gal3.jpg",
-            "assets/images/sonic2gal4.jpg"
-        ]
+      "titulo": "Sonic 2",
+      "imagem": "assets/images/sonic2.jpg",
+      "descricao": "Sinopse: Sonic retorna para enfrentar novos inimigos e proteger seus amigos. Sua velocidade e inteligência são cruciais em batalhas eletrizantes. A saga do ouriço azul continua em mais uma emocionante aventura.",
+      "duracao": "2h 2min",
+      "direcao": "Jeff Fowler",
+      "elenco": "James Marsden, Ben Schwartz, Tika Sumpter, Natasha Rothwell, Adam Pally, Shemar Moore, Colleen O'Shaughnessey, Idris Elba, Jim Carrey",
+      "datadelanc": "2022",
+      "galeria": [
+        "assets/images/sonic2gal1.jpg",
+        "assets/images/sonic2gal2.jpg",
+        "assets/images/sonic2gal3.jpg",
+        "assets/images/sonic2gal4.jpg"
+      ],
+      "id": "107f"
     }
-],
-
-"filmesDisponiveis": [
+  ],
+  "filmesDisponiveis": [
     {
-        "titulo": "Guardiões da Galáxia",
-        "imagem": "assets/images/guardioes-da-galaxia.jpg",
-        "descricao": "Sinopse: Um grupo improvável de desajustados intergalácticos une forças para proteger um artefato extremamente poderoso. Eles enfrentam inimigos mortais e criam laços inesperados enquanto lutam para salvar a galáxia. Com ação e humor, essa equipe mostra o poder da união.",
-        "duracao": "2h 3min",
-        "direcao": "James Gunn",
-        "elenco": " Chris Pratt, Zoë Saldana, Dave Bautista, Vin Diesel, Bradley Cooper, Lee Pace",
-        "datadelanc": "2014",
-        "galeria": [
-            "assets/images/gtggal1.jpg",
-            "assets/images/gtggal2.jpg",
-            "assets/images/gtggal3.jpg",
-            "assets/images/gtggal4.jpg"
-        ]
+      "titulo": "Guardiões da Galáxia",
+      "imagem": "assets/images/guardioes-da-galaxia.jpg",
+      "descricao": "Sinopse: Um grupo improvável de desajustados intergalácticos une forças para proteger um artefato extremamente poderoso. Eles enfrentam inimigos mortais e criam laços inesperados enquanto lutam para salvar a galáxia. Com ação e humor, essa equipe mostra o poder da união.",
+      "duracao": "2h 3min",
+      "direcao": "James Gunn",
+      "elenco": " Chris Pratt, Zoë Saldana, Dave Bautista, Vin Diesel, Bradley Cooper, Lee Pace",
+      "datadelanc": "2014",
+      "galeria": [
+        "assets/images/gtggal1.jpg",
+        "assets/images/gtggal2.jpg",
+        "assets/images/gtggal3.jpg",
+        "assets/images/gtggal4.jpg"
+      ],
+      "id": "a23e"
     },
     {
-        "titulo": "Sorria",
-        "imagem": "assets/images/sorria1.webp",
-        "descricao": "Sinopse: Após testemunhar eventos traumáticos, uma psicóloga passa a ser assombrada por uma entidade macabra. Ela precisa confrontar seus medos mais profundos e desvendar a origem desse mal. O terror psicológico toma conta enquanto ela tenta sobreviver.",
-        "duracao": "1h 55min",
-        "direcao": "Parker Finn",
-        "elenco": "Kyle Gallner, Sosie Bacon, Jessie T. Usher",
-        "datadelanc": "2022",
-        "galeria": [
-            "assets/images/sorriagal1.jpg",
-            "assets/images/sorriagal2.jpg",
-            "assets/images/sorriagal3.jpg",
-            "assets/images/sorriagal4.jpg"  
-        ]
+      "titulo": "Sorria",
+      "imagem": "assets/images/sorria1.webp",
+      "descricao": "Sinopse: Após testemunhar eventos traumáticos, uma psicóloga passa a ser assombrada por uma entidade macabra. Ela precisa confrontar seus medos mais profundos e desvendar a origem desse mal. O terror psicológico toma conta enquanto ela tenta sobreviver.",
+      "duracao": "1h 55min",
+      "direcao": "Parker Finn",
+      "elenco": "Kyle Gallner, Sosie Bacon, Jessie T. Usher",
+      "datadelanc": "2022",
+      "galeria": [
+        "assets/images/sorriagal1.jpg",
+        "assets/images/sorriagal2.jpg",
+        "assets/images/sorriagal3.jpg",
+        "assets/images/sorriagal4.jpg"
+      ],
+      "id": "85e9"
     },
     {
-        "titulo": "Sonic",
-        "imagem": "assets/images/sonic1.webp",
-        "descricao": "Sinopse: O veloz ouriço azul foge para a Terra e encontra um novo amigo humano. Juntos, eles enfrentam o Dr. Robotnik, que quer usar a supervelocidade de Sonic para dominar o mundo. Uma aventura cheia de diversão, amizade e ação eletrizante.",
-        "duracao": "1h 39min",
-        "direcao": "Jeff Fowler",
-        "elenco": "Jim Carrey, James Marsden, Tika Sumpter, Neal McDonough, Adam Pally, Lee Majdoub, Malik Bentalha, Michael Hogan",
-        "datadelanc": "2020",
-        "galeria": [
-            "assets/images/sonic1gal1.jpg",
-            "assets/images/sonic1gal2.jpg",
-            "assets/images/sonic1gal3.jpg",
-            "assets/images/sonic1gal4.jpg"
-        ]
+      "titulo": "Sonic",
+      "imagem": "assets/images/sonic1.webp",
+      "descricao": "Sinopse: O veloz ouriço azul foge para a Terra e encontra um novo amigo humano. Juntos, eles enfrentam o Dr. Robotnik, que quer usar a supervelocidade de Sonic para dominar o mundo. Uma aventura cheia de diversão, amizade e ação eletrizante.",
+      "duracao": "1h 39min",
+      "direcao": "Jeff Fowler",
+      "elenco": "Jim Carrey, James Marsden, Tika Sumpter, Neal McDonough, Adam Pally, Lee Majdoub, Malik Bentalha, Michael Hogan",
+      "datadelanc": "2020",
+      "galeria": [
+        "assets/images/sonic1gal1.jpg",
+        "assets/images/sonic1gal2.jpg",
+        "assets/images/sonic1gal3.jpg",
+        "assets/images/sonic1gal4.jpg"
+      ],
+      "id": "40b7"
     },
     {
-        "titulo": "Bladerunner 2049",
-        "imagem": "assets/images/bladerunner.png",
-        "descricao": "Sinopse: Em um futuro distópico, um novo Blade Runner descobre um segredo que ameaça a estabilidade da sociedade. Ele embarca em uma jornada para encontrar respostas e proteger o que resta da humanidade. Uma ficção científica visualmente deslumbrante e reflexiva.",
-        "duracao": "2h 43min",
-        "direcao": "Denis Villeneuve",
-        "elenco": "Ryan Gosling, Harrison Ford, Ana de Armas, Sylvia Hoeks, Robin Wright, Mackenzie Davis, Dave Bautista, Carla Juri, Lennie James, Sean Young, Edward James Olmos",
-        "datadelanc": "2017",
-        "galeria": [
-            "assets/images/blarungal1.jpg",
-            "assets/images/blarungal2.jpg",
-            "assets/images/blarungal3.jpg",
-            "assets/images/blarungal4.jpg"
-        ]
+      "titulo": "Bladerunner 2049",
+      "imagem": "assets/images/bladerunner.png",
+      "descricao": "Sinopse: Em um futuro distópico, um novo Blade Runner descobre um segredo que ameaça a estabilidade da sociedade. Ele embarca em uma jornada para encontrar respostas e proteger o que resta da humanidade. Uma ficção científica visualmente deslumbrante e reflexiva.",
+      "duracao": "2h 43min",
+      "direcao": "Denis Villeneuve",
+      "elenco": "Ryan Gosling, Harrison Ford, Ana de Armas, Sylvia Hoeks, Robin Wright, Mackenzie Davis, Dave Bautista, Carla Juri, Lennie James, Sean Young, Edward James Olmos",
+      "datadelanc": "2017",
+      "galeria": [
+        "assets/images/blarungal1.jpg",
+        "assets/images/blarungal2.jpg",
+        "assets/images/blarungal3.jpg",
+        "assets/images/blarungal4.jpg"
+      ],
+      "id": "9d4a"
     },
     {
-        "titulo": "Divertidamente",
-        "imagem": "assets/images/divertidamente1.jpg",
-        "descricao": "Sinopse: Dentro da mente de uma menina chamada Riley, cinco emoções trabalham juntas para guiá-la durante mudanças importantes em sua vida. Alegria, Tristeza e os outros aprendem a cooperar enquanto Riley enfrenta novos desafios. Uma jornada emocionante sobre amadurecimento e sentimentos.",
-        "duracao": "1h 35min",
-        "direcao": "Pete Docter",
-        "elenco": "Amy Poehler, Phyllis Smith, Richard Kind, Bill Hader, Lewis Black, Mindy Kaling",
-        "datadelanc": "2015",
-        "galeria": [
-            "assets/images/divert1gal1.jpg",
-            "assets/images/divert1gal2.jpg",
-            "assets/images/divert1gal3.jpg",
-            "assets/images/divert1gal4.jpg"
-        ]
+      "titulo": "Divertidamente",
+      "imagem": "assets/images/divertidamente1.jpg",
+      "descricao": "Sinopse: Dentro da mente de uma menina chamada Riley, cinco emoções trabalham juntas para guiá-la durante mudanças importantes em sua vida. Alegria, Tristeza e os outros aprendem a cooperar enquanto Riley enfrenta novos desafios. Uma jornada emocionante sobre amadurecimento e sentimentos.",
+      "duracao": "1h 35min",
+      "direcao": "Pete Docter",
+      "elenco": "Amy Poehler, Phyllis Smith, Richard Kind, Bill Hader, Lewis Black, Mindy Kaling",
+      "datadelanc": "2015",
+      "galeria": [
+        "assets/images/divert1gal1.jpg",
+        "assets/images/divert1gal2.jpg",
+        "assets/images/divert1gal3.jpg",
+        "assets/images/divert1gal4.jpg"
+      ],
+      "id": "a852"
     },
     {
-        "titulo": "Deadpool e Wolverine",
-        "imagem": "assets/images/deadwolve.jpg",
-        "descricao": "Sinopse: Dois anti-heróis improváveis se unem em uma aventura cheia de ação e sarcasmo. Entre explosões e humor ácido, Deadpool e Wolverine enfrentam desafios brutais. Uma parceria icônica em uma missão imperdível.",
-        "duracao": "2h 10min",
-        "direcao": "Shawn Levy",
-        "elenco": "Ryan Reynolds, Hugh Jackman, Emma Corrin, Matthew Macfadyen, Morena Baccarin, Rob Delaney",
-        "datadelanc": "2024",
-        "galeria": [
-            "assets/images/deadwolvegal1.jpg",
-            "assets/images/deadwolvegal2.jpg",
-            "assets/images/deadwolvegal3.jpg",
-            "assets/images/deadwolvegal4.jpg"
-        ]
+      "titulo": "Deadpool e Wolverine",
+      "imagem": "assets/images/deadwolve.jpg",
+      "descricao": "Sinopse: Dois anti-heróis improváveis se unem em uma aventura cheia de ação e sarcasmo. Entre explosões e humor ácido, Deadpool e Wolverine enfrentam desafios brutais. Uma parceria icônica em uma missão imperdível.",
+      "duracao": "2h 10min",
+      "direcao": "Shawn Levy",
+      "elenco": "Ryan Reynolds, Hugh Jackman, Emma Corrin, Matthew Macfadyen, Morena Baccarin, Rob Delaney",
+      "datadelanc": "2024",
+      "galeria": [
+        "assets/images/deadwolvegal1.jpg",
+        "assets/images/deadwolvegal2.jpg",
+        "assets/images/deadwolvegal3.jpg",
+        "assets/images/deadwolvegal4.jpg"
+      ],
+      "id": "7f5b"
     },
     {
-        "titulo": "Divertidamente 2",
-        "imagem": "assets/images/divertidamente2.jpg",
-        "descricao": "Sinopse: As emoções de Riley retornam para lidar com os desafios da adolescência. Novos sentimentos surgem, trazendo descobertas sobre crescimento e amadurecimento. A mente de Riley continua uma aventura cheia de aprendizado.",
-        "duracao": "1h 37min",
-        "direcao": "Kelsey Mann",
-        "elenco": "Amy Poehler, Maya Hawke, Kensington Tallman, Liza Lapira, Tony Hale, Lewis Black",
-        "datadelanc": "2024",
-        "galeria": [
-            "assets/images/divert2gal1.jpg",
-            "assets/images/divert2gal2.jpg",
-            "assets/images/divert2gal3.jpg",
-            "assets/images/divert2gal4.jpg"
-        ]
+      "titulo": "Divertidamente 2",
+      "imagem": "assets/images/divertidamente2.jpg",
+      "descricao": "Sinopse: As emoções de Riley retornam para lidar com os desafios da adolescência. Novos sentimentos surgem, trazendo descobertas sobre crescimento e amadurecimento. A mente de Riley continua uma aventura cheia de aprendizado.",
+      "duracao": "1h 37min",
+      "direcao": "Kelsey Mann",
+      "elenco": "Amy Poehler, Maya Hawke, Kensington Tallman, Liza Lapira, Tony Hale, Lewis Black",
+      "datadelanc": "2024",
+      "galeria": [
+        "assets/images/divert2gal1.jpg",
+        "assets/images/divert2gal2.jpg",
+        "assets/images/divert2gal3.jpg",
+        "assets/images/divert2gal4.jpg"
+      ],
+      "id": "8e3d"
     },
     {
-        "titulo": "Sorria 2",
-        "imagem": "assets/images/sorria2.webp",
-        "descricao": "Sinopse: Uma nova força sombria aterroriza seus alvos, espalhando pavor em cada sorriso. Um terror psicológico intenso e cheio de surpresas. Prepare-se para uma sequência arrepiante e cheia de tensão.",
-        "duracao": "2h 7min",
-        "direcao": "Parker Finn",
-        "elenco": "Naomi Scott, Miles Gutierrez-Riley, Kyle Gallner, Rosemarie DeWitt",
-        "datadelanc": "2024",
-        "galeria": [
-            "assets/images/sorria2gal1.jpg",
-            "assets/images/sorria2gal2.jpg",
-            "assets/images/sorria2gal3.jpg",
-            "assets/images/sorria2gal4.jpg"
-        ]
+      "titulo": "Sorria 2",
+      "imagem": "assets/images/sorria2.webp",
+      "descricao": "Sinopse: Uma nova força sombria aterroriza seus alvos, espalhando pavor em cada sorriso. Um terror psicológico intenso e cheio de surpresas. Prepare-se para uma sequência arrepiante e cheia de tensão.",
+      "duracao": "2h 7min",
+      "direcao": "Parker Finn",
+      "elenco": "Naomi Scott, Miles Gutierrez-Riley, Kyle Gallner, Rosemarie DeWitt",
+      "datadelanc": "2024",
+      "galeria": [
+        "assets/images/sorria2gal1.jpg",
+        "assets/images/sorria2gal2.jpg",
+        "assets/images/sorria2gal3.jpg",
+        "assets/images/sorria2gal4.jpg"
+      ],
+      "id": "8666"
     },
     {
-        "titulo": "Super Mario",
-        "imagem": "assets/images/supermario.webp",
-        "descricao": "Sinopse: Mario embarca em uma jornada épica para salvar o Reino dos Cogumelos. Com desafios, inimigos clássicos e cenários incríveis, o encanador enfrenta tudo com coragem. Diversão e nostalgia se unem nessa aventura.",
-        "duracao": "1h 32min",
-        "direcao": "Aaron Horvath, Michael Jelenic",
-        "elenco": "Chris Pratt, Anya Taylor-Joy, Charlie Day, Jack Black",
-        "datadelanc": "2023",
-        "galeria": [
-            "assets/images/supmariogal1.jpg",
-            "assets/images/supmariogal2.jpg",
-            "assets/images/supmariogal3.jpg",
-            "assets/images/supmariogal4.jpg"
-        ]
+      "titulo": "Super Mario",
+      "imagem": "assets/images/supermario.webp",
+      "descricao": "Sinopse: Mario embarca em uma jornada épica para salvar o Reino dos Cogumelos. Com desafios, inimigos clássicos e cenários incríveis, o encanador enfrenta tudo com coragem. Diversão e nostalgia se unem nessa aventura.",
+      "duracao": "1h 32min",
+      "direcao": "Aaron Horvath, Michael Jelenic",
+      "elenco": "Chris Pratt, Anya Taylor-Joy, Charlie Day, Jack Black",
+      "datadelanc": "2023",
+      "galeria": [
+        "assets/images/supmariogal1.jpg",
+        "assets/images/supmariogal2.jpg",
+        "assets/images/supmariogal3.jpg",
+        "assets/images/supmariogal4.jpg"
+      ],
+      "id": "7c39"
     },
     {
-        "titulo": "Sonic 2",
-        "imagem": "assets/images/sonic2.jpg",
-        "descricao": "Sinopse: Sonic retorna para enfrentar novos inimigos e proteger seus amigos. Sua velocidade e inteligência são cruciais em batalhas eletrizantes. A saga do ouriço azul continua em mais uma emocionante aventura.",
-        "duracao": "2h 2min",
-        "direcao": "Jeff Fowler",
-        "elenco": "James Marsden, Ben Schwartz, Tika Sumpter, Natasha Rothwell, Adam Pally, Shemar Moore, Colleen O'Shaughnessey, Idris Elba, Jim Carrey",
-        "datadelanc": "2022",
-        "galeria": [
-            "assets/images/sonic2gal1.jpg",
-            "assets/images/sonic2gal2.jpg",
-            "assets/images/sonic2gal3.jpg",
-            "assets/images/sonic2gal4.jpg"
-        ]
+      "titulo": "Sonic 2",
+      "imagem": "assets/images/sonic2.jpg",
+      "descricao": "Sinopse: Sonic retorna para enfrentar novos inimigos e proteger seus amigos. Sua velocidade e inteligência são cruciais em batalhas eletrizantes. A saga do ouriço azul continua em mais uma emocionante aventura.",
+      "duracao": "2h 2min",
+      "direcao": "Jeff Fowler",
+      "elenco": "James Marsden, Ben Schwartz, Tika Sumpter, Natasha Rothwell, Adam Pally, Shemar Moore, Colleen O'Shaughnessey, Idris Elba, Jim Carrey",
+      "datadelanc": "2022",
+      "galeria": [
+        "assets/images/sonic2gal1.jpg",
+        "assets/images/sonic2gal2.jpg",
+        "assets/images/sonic2gal3.jpg",
+        "assets/images/sonic2gal4.jpg"
+      ],
+      "id": "ac31"
     }
-]
-
-
+  ]
 }
