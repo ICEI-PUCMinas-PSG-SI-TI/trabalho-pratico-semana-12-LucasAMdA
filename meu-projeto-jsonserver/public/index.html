@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo de filmes</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="m-0 p-0">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <header style="background: #204060">
+
+    <div id="headercontainer"  style="color: rgb(196, 196, 196);">
+      <a id="logo" href="index.html" style="font-size: 60px"><strong>Cine Environment</strong></a>
+
+      <a href="novoFilme.html"  style="color: white; text-decoration: none;">
+        <div id="novoFilme">
+          <span style="color: white; text-decoration: none;"><strong>Adicionar Filme</strong></span>
+          <img src="assets/images/seta.png" alt="" class="" width="40px" height="40px">
+        </div>
+      </a>
+
+    </div>
+
+  </header>
+  <main class="bg-dark w-100" style="padding-top: 100px">
+    <section>
+      <div class="container my-4">
+        <div id="carouselBanner" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-inner shadow rounded-3">
+            <div class="carousel-item active zoom-animation" style="cursor: pointer; " data-title="Guardiões da Galáxia">
+              <img src="assets/images/Guardians-of-the-Galaxy-banner.jpg" class="d-block w-100"
+                alt="Guardiões da Galáxia">
+            </div>
+            <div class="carousel-item zoom-animation" style="cursor: pointer;" data-title="Sonic">
+              <img src="assets/images/SonicTheHedgehog_2020_Sellthru_BR_1280x720.jpg" class="d-block w-100" alt="Sonic">
+            </div>
+            <div class="carousel-item zoom-animation" style="cursor: pointer;" data-title="Divertidamente">
+              <img src="assets/images/Divertidamente cartaz.webp" class="d-block w-100" alt="Divertidamente">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', async () => {
+        try {
+          const response = await fetch('http://localhost:3000/filmesPopulares');
+          if (!response.ok) throw new Error('Erro ao carregar filmes populares');
+          const filmesPopulares = await response.json();
+          const carouselItems = document.querySelectorAll('#carouselBanner .carousel-item');
+
+          carouselItems.forEach(item => {
+            item.addEventListener('click', () => {
+              const titulo = item.getAttribute('data-title');
+              const filmeSelecionado = filmesPopulares.find(filme => filme.titulo === titulo);
+
+              if (filmeSelecionado) {
+                localStorage.setItem('filmeSelecionado', JSON.stringify(filmeSelecionado));
+                window.location.href = 'detalhes.html';
+              }
+            });
+          });
+        } catch (error) {
+          console.error('Erro ao carregar o carrossel:', error);
+        }
+      });
+    </script>
+
+    <section class="p-4">
+      <!-- Inicio POPULARES -->
+      <article class="p-4 mx-2">
+
+        <h1 class="ms-3 text-bg-dark text-start" style="font-size: 40px">POPULARES</h1>
+        <div class="populares d-flex flex-wrap p-4"></div>
+      </article>
+      </div>
+      <!-- Fim POPULARES -->
+      <!-- Inicio LANÇAMENTOS -->
+      <article class="p-4 mx-2">
+
+        <h1 class="ms-3 text-bg-dark text-start" style="font-size: 40px">LANÇAMENTOS</h1>
+        <div class="lancamentos d-flex flex-wrap p-4"></div>
+      </article>
+      </div>
+      <!-- Fim LANÇAMENTOS -->
+      <!--Inicio Filmes Gerais-->
+      <article class="p-4 mx-2">
+
+        <h1 class="ms-3 text-bg-dark text-start" style="font-size: 40px">LANÇAMENTOS</h1>
+        <div class="filmesDispo d-flex flex-wrap p-4"></div>
+      </article>
+      </div>
+
+      <!--Fim Filmes Gerais-->
+    </section>
+  </main>
+  <footer class="text-white text-center text-lg-start" style="background-color: rgb(2, 76, 112);">
+    <footer class="container py-4" style="width: 100%;">
+      <h2 class="fw-bold mb-4">Informações do Aluno</h2>
+      <div class="row">
+
+        <div class="col-md-6">
+          <p class="fw-bold d-block mb-3" style="font-size: xx-large;">Sobre</p>
+          <p>Este é um site de catálogo de filmes feito por mim, Lucas Alaane, com o objetivo de ajudar em meus estudos
+            no curso de Sistema de Informação, no qual estou atualmente cursando.</p>
+        </div>
+
+        <div class="col-md-6">
+          <h5 class="fw-bold">Autoria</h5>
+          <div class="d-flex align-items-start mb-3">
+            <img src="assets\images\Retrato.jpeg" alt="" class="rounded-circle me-3"
+              style="width: 64px; height: 64px; object-fit: cover;">
+            <div>
+              <p class="mb-1"><strong>Aluno:</strong> Lucas Alaane</p>
+              <p class="mb-1"><strong>Curso:</strong> Sistema de Informação</p>
+              <p class="mb-0"><strong>Turma:</strong> Manhã</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </footer>
+  <script src="assets/scripts/app.js"></script>
+</body>
+
+</html>

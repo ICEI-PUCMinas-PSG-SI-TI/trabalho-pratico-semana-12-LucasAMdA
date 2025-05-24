@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="head"></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            color: #c4c4c4;
+        }
+
+        .detalhes {
+            padding-left: 5%;
+            padding-top: 6%;
+
+            border-radius: 8px;
+            width: 100%;
+            display: inline-flex;
+            flex-wrap: wrap;
+        }
+
+        #titulo {
+            padding: 0px;
+
+            border-radius: 8px;
+            width: 100%;
+        }
+
+        .detalhes img {
+            width: max-content;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .detalhes #info {
+            display: inline-flex;
+            flex-wrap: wrap;
+        }
+
+        .detalhes #info p {
+            display: inline-block;
+            width: 70%;
+        }
+
+        @media (max-width: 480px) {
+            main {
+                padding-top: 100px;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+                text-align: center;
+            }
+
+            #imagem {
+                max-width: 100%;
+            }
+
+            .btn {
+                width: 100%;
+            }
+        }
+
+        @media (min-width: 481px) and (max-width: 768px) {
+            main {
+                padding-top: 120px;
+            }
+
+            #info {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            #info2 {
+                margin-left: 0;
+                margin-top: 1rem;
+            }
+
+            .navbar-brand {
+                font-size: 32px;
+                /* reduz em telas menores */
+                text-align: center;
+
+                header .d-flex {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-dark">
+    <header class="container-fluid position-fixed bg-gradient rounded-bottom"
+        style="background: #204060; z-index: 1050">
+        <div class="d-flex p-2" style="color: rgb(196, 196, 196);">
+            <div class="">
+                <a class="navbar-brand fw-bold" href="index.html" style="font-size: 60px">Cine Environment</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="detalhes">
+            <h1 id="titulo"></h1>
+            <div id="info" class="d-flex flex-wrap">
+                <img id="imagem" alt="Imagem do Filme" style="max-width: 90%; height: auto; max-height: 400px;">
+                <div id="info2" class="ms-5 mt-5">
+                    <p style="margin: 0%;"><strong>Elenco: </strong><br></p>
+                    <p id="elenco" class="d-flex flex-wrap"></p>
+                    <p style="margin: 0%;"><strong>Duração: </strong><br></p>
+                    <p id="duracao"></p>
+                    <p style="margin: 0%;"><strong>Direção: </strong><br></p>
+                    <p id="direcao"></p>
+                    <p style="margin: 0%;"><strong>Data de Lançamento: </strong><br></p>
+                    <p id="data"></p>
+                </div>
+                <p id="descricao" class="d-inline-flex mt-4"></p>
+            </div>
+            <div id="galeria" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-4 ms-0"></div>
+            <div class="w-100">
+                <a href="index.html" class="btn btn-primary mt-4 d-block" style="width: 5%;">Voltar</a>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid text-white py-5" style="width: 100%; background-color: #004d73; margin-top: 80px;">
+        <div class="container">
+            <h2 class="fw-bold mb-4">Informações do Aluno</h2>
+            <div class="row">
+                <!-- Coluna esquerda -->
+                <div class="col-md-6 mb-4">
+                    <p class="fw-bold" style="font-size: xx-large;">Sobre</p>
+                    <p>
+                        Este é um site de catálogo de filmes feito por mim, Lucas Alaane, com o objetivo de ajudar em
+                        meus estudos no curso de Sistema de Informação, no qual estou atualmente cursando.
+                    </p>
+                </div>
+
+                <!-- Coluna direita -->
+                <div class="col-md-6">
+                    <h5 class="fw-bold mb-3">Autoria</h5>
+                    <div class="d-flex align-items-start mb-3">
+                        <img src="Retrato.jpeg" alt="Foto do aluno" class="rounded-circle me-3"
+                            style="width: 64px; height: 64px; object-fit: cover;">
+                        <div>
+                            <p class="mb-1"><strong>Aluno:</strong> Lucas Alaane</p>
+                            <p class="mb-1"><strong>Curso:</strong> Sistema de Informação</p>
+                            <p class="mb-0"><strong>Turma:</strong> Manhã</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+
+        const filme = JSON.parse(localStorage.getItem("filmeSelecionado"));
+
+        if (filme) {
+            document.getElementById("head").textContent = filme.titulo;
+            document.getElementById("titulo").textContent = filme.titulo;
+            document.getElementById("imagem").src = filme.imagem;
+            document.getElementById("descricao").textContent = filme.descricao;
+            document.getElementById("elenco").textContent = filme.elenco;
+            document.getElementById("direcao").textContent = filme.direcao;
+            document.getElementById("duracao").textContent = filme.duracao;
+            document.getElementById("data").textContent = filme.datadelanc;
+        }
+        const urlParams = new URLSearchParams(window.location.search);
+        const filmeSelecionado = urlParams.get("filme");
+
+        if (filme && filme.galeria) {
+            const galeriaContainer = document.getElementById("galeria");
+
+            filme.galeria.forEach(src => {
+                const img = document.createElement("img");
+                img.src = src;
+                img.alt = `Imagem de ${filme.titulo}`;
+                img.className = "img-fluid rounded";
+                img.style.width = "23%";
+                img.style.height = "200px";
+                img.style.borderRadius = "90px";
+                img.style.objectFit = "cover";
+
+                galeriaContainer.appendChild(img);
+            });
+        }
+
+    </script>
+</body>
+
+</html>
