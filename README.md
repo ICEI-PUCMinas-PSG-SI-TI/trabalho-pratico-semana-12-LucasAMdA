@@ -5,9 +5,9 @@ Nesta atividade, você irá completar o projeto anterior permitindo cadastrar e 
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
+- Nome: Lucas Alaane Mesquita de Araújo
+- Matricula: 880284
+- Proposta de projeto escolhida: Catálogo de Filmes
 - Breve descrição sobre seu projeto:
 
 **Print do testes da API com Postman ou similar**
