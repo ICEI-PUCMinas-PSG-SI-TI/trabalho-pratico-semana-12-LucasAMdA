@@ -1,18 +1,32 @@
 {
   "usuarios": [
     {
-      "login": "lucasalaane",
-      "senha": "2025",
-      "nome": "Lucas Mesquita",
-      "email": "lucasalaane@abc.com",
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1"
-    },
-    {
       "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
       "login": "user",
       "senha": "123",
       "nome": "Usuario Comum",
       "email": "user@abc.com"
+    },
+    {
+      "id": "c7f6",
+      "nome": "rafael",
+      "email": "rafa@gmail",
+      "login": "12345",
+      "senha": "54321"
+    },
+    {
+      "id": "1638",
+      "nome": "Lucas Alaane",
+      "email": "lucasalaane2016@gmail.com",
+      "login": "Lucas",
+      "senha": "2025"
+    },
+    {
+      "id": "30d6",
+      "nome": "Lucas Alaane",
+      "email": "lucasalaane2016@gmail.com",
+      "login": "lucasalaane",
+      "senha": "2025"
     }
   ],
   "filmesPopulares": [

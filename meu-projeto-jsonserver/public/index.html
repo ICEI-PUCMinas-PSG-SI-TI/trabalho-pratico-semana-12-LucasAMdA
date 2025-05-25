@@ -17,25 +17,28 @@
 
   <header style="background: #204060">
 
-    <div id="headercontainer"  style="color: rgb(196, 196, 196);">
-      <a id="logo" href="index.html" style="font-size: 60px"><strong>Cine Environment</strong></a>
+<div id="headercontainer">
+  <a id="logo" href="index.html" style="font-size: 60px;"><strong>Cine Environment</strong></a>
 
-      <a href="novoFilme.html"  style="color: white; text-decoration: none;">
-        <div id="novoFilme">
-          <span style="color: white; text-decoration: none;"><strong>Adicionar Filme</strong></span>
-          <img src="assets/images/seta.png" alt="" class="" width="40px" height="40px">
-        </div>
-      </a>
+  <!-- LOGIN OU MENU DO USUÁRIO -->
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <a href="novoUsuario.html" id="loginContainer" style="color: white; text-decoration: none;">
+      <div id="novoUsuario">
+        <span><strong>Faça seu Login</strong></span>
+        <img src="assets/images/seta.png" alt="" width="40px" height="40px">
+      </div>
+    </a>
 
-    </div>
-
-  </header>
+    <nav id="menu"></nav>
+  </div>
+</div>  </header>
   <main class="bg-dark w-100" style="padding-top: 100px">
     <section>
       <div class="container my-4">
         <div id="carouselBanner" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
           <div class="carousel-inner shadow rounded-3">
-            <div class="carousel-item active zoom-animation" style="cursor: pointer; " data-title="Guardiões da Galáxia">
+            <div class="carousel-item active zoom-animation" style="cursor: pointer; "
+              data-title="Guardiões da Galáxia">
               <img src="assets/images/Guardians-of-the-Galaxy-banner.jpg" class="d-block w-100"
                 alt="Guardiões da Galáxia">
             </div>
@@ -109,6 +112,13 @@
       <!--Fim Filmes Gerais-->
     </section>
   </main>
+
+  <h1>Lista de Usuários</h1>
+  <ul id="lista-usuarios"></ul>
+  <a href="novoFilme.html">Cadastrar Novo Usuário</a>
+
+  <script src="scripts/app.js"></script>
+
   <footer class="text-white text-center text-lg-start" style="background-color: rgb(2, 76, 112);">
     <footer class="container py-4" style="width: 100%;">
       <h2 class="fw-bold mb-4">Informações do Aluno</h2>

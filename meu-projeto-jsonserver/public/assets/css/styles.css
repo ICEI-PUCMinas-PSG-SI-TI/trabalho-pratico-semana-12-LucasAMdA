@@ -24,7 +24,7 @@ body {
   color: white
 }
 
-#novoFilme {
+#novoUsuario {
   margin-right: 30px;
   display: flex;
   align-items: center;
@@ -43,12 +43,12 @@ body {
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
-#novoFilme:hover {
+#novoUsuario:hover {
   background-color: rgba(44, 44, 58, 0.2);
   transform: translateY(-2px);
 }
 
-#novoFilme img {
+#novoUsuario img {
 background-color: rgb(66, 66, 131);
 border-radius: 60px;
 }
@@ -89,7 +89,7 @@ border-radius: 60px;
 
 
 
-  #novoFilme {
+  #novoUsuario {
     background-color: rgb(56, 91, 155);
     padding: 10px 20px;
     border-radius: 10px;

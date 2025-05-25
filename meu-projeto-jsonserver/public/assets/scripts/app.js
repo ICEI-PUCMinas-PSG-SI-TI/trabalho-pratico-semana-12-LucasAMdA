@@ -56,3 +56,62 @@ window.addEventListener("DOMContentLoaded", async () => {
 
 });
 
+const menu = document.getElementById('menu');
+const usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
+
+function criarBotaoUsuario(nome) {
+  const div = document.createElement('div');
+  div.id = 'menu-usuario';
+  div.innerHTML = `
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownUsuario" data-bs-toggle="dropdown" aria-expanded="false">
+        Olá, ${nome}
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownUsuario">
+        <li><a class="dropdown-item" href="#" id="btn-logout">Sair</a></li>
+        <li><a class="dropdown-item text-danger" href="#" id="btn-deletar-conta">Deletar Conta</a></li>
+      </ul>
+    </div>
+  `;
+  return div;
+}
+
+function renderizarMenuUsuario() {
+    const loginContainer = document.getElementById('loginContainer');
+
+  if (usuarioLogado && loginContainer) {
+    loginContainer.style.display = 'none';
+  } else if (loginContainer) {
+    loginContainer.style.display = 'flex'; 
+  }
+
+  if (usuarioLogado && menu) {
+    menu.innerHTML = '';
+    menu.appendChild(criarBotaoUsuario(usuarioLogado.nome));
+
+    document.getElementById('btn-logout').addEventListener('click', () => {
+      localStorage.removeItem('usuarioLogado');
+      window.location.reload();
+    });
+
+    document.getElementById('btn-deletar-conta').addEventListener('click', async () => {
+      if (confirm('Tem certeza que deseja excluir sua conta?')) {
+        try {
+          const res = await fetch(`http://localhost:3000/usuarios/${usuarioLogado.id}`, {
+            method: 'DELETE'
+          });
+          if (res.ok) {
+            localStorage.removeItem('usuarioLogado');
+            window.location.reload();
+          } else {
+            throw new Error('Erro ao deletar conta');
+          }
+        } catch (error) {
+          alert('Erro: ' + error.message);
+        }
+      }
+    });
+  }
+}
+
+renderizarMenuUsuario();
