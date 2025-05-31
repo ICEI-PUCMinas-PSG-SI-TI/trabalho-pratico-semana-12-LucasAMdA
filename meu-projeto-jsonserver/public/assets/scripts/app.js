@@ -62,6 +62,7 @@ const usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
 function criarBotaoUsuario(nome) {
   const div = document.createElement('div');
   div.id = 'menu-usuario';
+  div.style.marginRight = '40px';
   div.innerHTML = `
     <div class="dropdown">
       <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownUsuario" data-bs-toggle="dropdown" aria-expanded="false">
